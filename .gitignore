@@ -1,0 +1,9 @@
+#virtual environments
+venv/
+
+#dotenv file
+.env
+
+#Sensitive Dataset and project details
+dataset/
+Task/
