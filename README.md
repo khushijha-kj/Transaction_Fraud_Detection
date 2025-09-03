@@ -14,9 +14,9 @@ This project was built with a clear goal in mind: create a model that prioritize
 
 ### The Dataset
 
-  * **Location:** `dataset/Fraud.csv`
+  * The dataset is not uploaded here but can be found on Kaggle.
   * **Size:** Over 6 million rows and 11 columns of transaction data.
-  * **Key points:** There are no missing values, but a significant challenge is the extreme **class imbalance**—frauds make up a tiny fraction of the total transactions.
+  * **Key points:** There are no missing values, but a significant challenge is the extreme **class imbalance** i.e, frauds make up a tiny fraction of the total transactions.
 
 -----
 
@@ -42,7 +42,7 @@ The project follows a standard data science process.
 
 The final trained model is saved as `fraud_detection_model.pkl`. This single file contains all the necessary steps, including data preprocessing, so it's easy to use.
 
-  * **F1 Score:** The model achieved an F1-score of around **95%** on the test data.
+  * **F1 Score:** The model achieved an F1-score of **97%** on the test data.
   * **Evaluation:** A detailed classification report was generated to show key metrics like precision and recall for both fraud and non-fraud transactions.
 
 -----
