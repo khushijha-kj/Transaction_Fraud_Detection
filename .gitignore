@@ -9,7 +9,11 @@ Task/
 
 # Ignore model artifacts and generated assets
 *.pkl
-images/
 scripts/
+
+
+# Images: ignore all except the F1 comparison chart used in README
+images/*
+!images/f1_comparison.png
 
 

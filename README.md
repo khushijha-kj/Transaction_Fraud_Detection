@@ -32,20 +32,12 @@ The project follows a standard data science process.
 
 #### 2\. Modeling
 
-  * **Model Choice:** A **Logistic Regression** classifier was chosen and built into a `scikit-learn` pipeline.
+  * **Model Choice:** Three different models were built into a `scikit-learn` pipeline.
   * **Data Preparation:** Before training, numeric features were scaled and the transaction type was converted into a format the model could understand.
   * **Training:** The data was split into training (70%) and testing (30%) sets.
 
 -----
 
-### Results
-
-The final trained model is saved as `fraud_detection_model.pkl`. This single file contains all the necessary steps, including data preprocessing, so it's easy to use.
-
-  * **F1 Score:** The model achieved an F1-score of **97%** on the test data.
-  * **Evaluation:** A detailed classification report was generated to show key metrics like precision and recall for both fraud and non-fraud transactions.
-
------
 
 ### Getting Started
 
